@@ -9,27 +9,50 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="kwitter.js"></script>
+<script src="main.js"></script>
 </head>
 <body>
-<center>
+    <center>
+
 	<h1 class="header">	
-		Kwitter ☜(ﾟヮﾟ☜)	<sup>
+		LC GO!	<sup>
 	<img src="m2.png">
 	</sup>
-</h1>
-	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
-	<img src="Kwitter.png" class="logo">
-		<h3 >The Kwitter for kids! :D</h3>
-		<h4 >Join Kwitter today</h4>
-		<div class="form-group">
-		  <label >User Name:</label>
-		  <input type="text" id="user" class="form-control" placeholder="Username Here!">
 
+</h1>
+<span>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+		<div class="form-group">
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11">
+                    <img src="LC GO! (1).png" class="logo">
+                    <h3 >The Chatting Place for Children!</h3>
+                    <h4 >Join Us Today For A Price Of $4.99</h4>
+                </div>
+                <button id="login_button" class="btn btn-primary"  onclick="adduser()">Log in</button>
+           
+		  
 		</div>
-		<button id="login_button" class="btn btn-primary"  onclick="adduser()">Log in</button>
+        
 		<br><br>
 	</div>
+
+    
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 textbox"> 
+            <div class="form-group">
+                <img id="safe" src="https://www.youthfocus.org/wp-content/uploads/2017/02/Safe-Place-Logo.jpg">
+                <br>
+                <br>
+                <label>User Here:</label>
+<input type="text" class="form-control" placeholder="Username" id="user">
+
+            </div>
+
+        </div>
+    </span>
 </center>
+   
+
+
 </body>
 </html>

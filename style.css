@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+background-image: url("https://www.pngfind.com/pngs/m/620-6209726_text-bubbles-png-transparent-iphone-message-bubble-png.png");
 }
 
 .header
@@ -91,4 +91,11 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 .message_h4
 {
 	padding-left:5px;color:grey;
+}
+#safe{
+    width: 200px;
+    height:200px;
+}
+.textbox{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
 }
